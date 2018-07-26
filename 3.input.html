@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>input</title>
+</head>
+<body>
+  <h1>学生注册页面</h1>
+  <form action="#" name="myForm" target="_blank">
+    姓名：
+      <input type="text" name="studentname" value="请输入姓名">  <br>
+    学号：
+      <input type="text" name="id" value="请输入学号"> <br>
+    性别： 
+      <input type="radio" name="gender"   value="male" id="male">
+      <label for="male">男</label>
+
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">女</label> 
+
+      <br>
+    科目：
+      <input type="checkbox" name="subject" value="html" id="html">
+      <label for="html">HTML</label>
+
+      <input type="checkbox" name="subject" value="axure" id="axure">
+      <label for="axure">AXURE</label>
+
+      <input type="checkbox" name="subject" value="PS" id="ps"> 
+      <label for="ps">ps</label>
+
+      <br>
+    照片：
+      <input type="file" name="photo">  <br>
+    隐藏
+      <input type="hidden" name="hidden" value="隐藏">  <br>
+    <input type="submit" value="提交我的表单">
+    <input type="reset" value="重置我的表单">
+    <input type="image" src="./images/1.jpg" alt="图片加载失败" width="100px" height="30px">
+  </form>
+</body>
+</html>
